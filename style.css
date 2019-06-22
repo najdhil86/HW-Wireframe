@@ -7,7 +7,8 @@ body {
     background-color: #777;
     width: 960px;
     font-size: 18px;
-    text-align: center;   
+    text-align: center;
+    margin-left: 60px;   
 }
 
 header, nav, section, aside, footer {
@@ -21,11 +22,14 @@ header, nav {
     margin-top: 10px;
 }
 
+header {
+    margin-bottom: 0px;
+}
+
 section, aside {
-    height: 250px;
+    height: 275px;
     float: left;
-    display: table;
-    padding-top: 15px;
+    padding: 40px 5px 10px 5px;
 }
 section {
     width: 495px;
@@ -39,14 +43,23 @@ aside {
 article{
     color: #ebebeb;
     background-color: #777;
-    width: 90%;
-    padding: 10px;
-    margin: auto;
+    width: 97%;
+    padding: 15px 15px 5px 15px;
+    margin: 18px 7px 0px;
 }
 
 h1, p {
     color: #777;
     background: #ebebeb;
+    padding: 15px;
+}
+
+h1{
+    margin: 10px 0px 9px 0px;
+}
+
+p {
+    margin-top: 0px;
 }
 
 footer {
